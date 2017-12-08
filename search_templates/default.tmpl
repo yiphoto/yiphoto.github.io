@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<$MTPublishCharset$>" />
+<meta name="generator" content="http://www.movabletype.org/" />
+
+<title>Search Results</title>
+<link rel="stylesheet" href="<$MTBlogURL$>styles-site.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="banner">
+<h1><a href="<$MTBlogURL$>" accesskey="1"><$MTBlogName$></a></h1>
+<h2><$MTBlogDescription$></h2>
+</div>
+
+<div class="content">
+
+<form method="post" action="<$MTCGIPath$><$MTSearchScript$>">
+
+<h3>Search this site:</h3>
+
+<p><input type="text" size="30" name="search" value="<$MTSearchString$>" /> <input type="submit" value="Search" /></p>
+
+<p><input type="checkbox" name="CaseSearch" /> Match case <input type="checkbox" name="RegexSearch" /> Regex search</p>
+
+</form>
+
+<MTSearchResults>
+
+<MTBlogResultHeader>
+<h2>Search Results from <$MTBlogName$></h2>
+</MTBlogResultHeader>
+
+<h3><a href="<$MTEntryPermalink$>"><$MTEntryTitle$></a></h3>
+<p><$MTEntryExcerpt$> <$MTEntryEditLink$></p>
+<p class="posted">Posted in <$MTBlogName$> on <$MTEntryDate$></p>
+
+</MTSearchResults>
+
+<MTNoSearchResults>
+<h2>Searched for "<$MTSearchString$>"</h2>
+
+<p>No pages were found containing "<$MTSearchString$>".</p>
+</MTNoSearchResults>
+
+<MTNoSearch>
+<h2>Instructions</h2>
+
+<p>By default, this search engine looks for all words in any order. To search for an exact phrase, enclose the phrase in quotes:</p>
+
+<blockquote><pre>"movable type"</pre></blockquote>
+
+<p>The search engine also supports AND, OR, and NOT keywords to specify boolean expressions:</p>
+
+<blockquote><pre>personal OR publishing</pre></blockquote>
+
+<blockquote><pre>publishing NOT personal</pre></blockquote>
+</MTNoSearch>
+
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+a:link, a:visited { color: #7154AB; font-weight: bold; text-decoration: none; }
+a:hover { color: #FF9900; font-weight: bold; text-decoration: none; }
+a.white:link, a.white:visited, a.menulinkbar:link, a.menulinkbar:visited { color: #FFFFFF; }
+a.white:hover, a.menulinkbar:hover { color: #FFCC33; }
+body,td,tr,p, div { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
+h4 { color: #313131; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; }
+h5 { color: #313131; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; }
+h6 { color: #313131; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+li { list-style: inside url(/images/siteserver/bullet_triangle_rt.gif) 2px; list-style-image: url(/images/siteserver/bullet_triangle_rt.gif); }
+.boundboxpurplered { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; text-decoration: none; }
+.boundboxpurplered a:hover { color: #99CC33; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; text-decoration: underline; }
+.button { background: #A187D3; border-bottom: 1px solid; border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; color: White; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; }
+.componentheadertext { color: #FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; }
+.componentheading { color: #FF9900; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; }
+.crumb { color: #EFF3FF; font-family: Arial, Helvetica, sans-serif; font-size: 9px; }
+.head { color: #696969; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+.headadbox { color: #FFFFFF; font-size: 11px; font-weight: bold; text-decoration: none; }
+.headannounce, .articlehead { color: #FF9900; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; }
+.headbig { color: #666666; font-family: Arial, Helvetica, Univers, 'Zurich BT', sans-serif; font-size: 16px; font-weight: bold; text-align: left; }
+.inputbox { bacground: #FFFFFF; background: #EFF3FF; border-bottom: 1px solid; border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-color: #666666; }
+.menulink{ color: #7154AB; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; letter-spacing: 0px; text-color: #000000; text-decoration: none; }
+.menulinkbar{ color: #FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; letter-spacing: 0px; text-color: #000000; text-decoration: none; }
+.poll { color: #9483DE; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; line-height: 14px; }
+.subhead { color: #6D6D6D; font-size: 10px; font-weight: bold; }
+.white { color: #FFFFFF; text-decoration: none; }

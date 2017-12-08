@@ -1,0 +1,143 @@
+/**	
+*	Mambo Open Source Version 4.0
+*	Dynamic portal server and Content managment engine
+*	22-10-2002
+*
+*	Copyright (C) 2000 - 2002 Miro International Pty. Limited
+*	Distributed under the terms of the GNU General Public License
+*	This software may be used without warranty provided these statements are left 
+*	intact and a "Powered By Mambo" appears at the bottom of each HTML page.
+*	This code is Available at http://sourceforge.net/projects/mambo
+*
+*	Site Name: Mambo Open Source Version 4.0
+*	File Name: ie5.css
+*	Developers: Danny Younes - danny@miro.com.au
+*				Nicole Anderson - nicole@miro.com.au
+*				Robert Castley - robert@castley.com
+*	Date: 22/10/2002
+* 	Version #: 4.0.12
+*	Comments:
+**/
+	
+/* --Default Page Settings-- */
+/* Body */
+BODY {
+	background-color : White;
+	color : Black;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+/* Links */
+a {
+	color : #FF8100;
+	font-size : 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+a:hover {
+	color : #808080;
+	font-size : 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+a:active {
+	color : red;
+	font-size : 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	text-decoration : underline;
+}
+
+.menubar {
+	color : #dfdfdf;
+	font-size : 12px;
+	font-weight : bold;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+/* Table Column */	
+td {
+	color : #333333;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+	
+/* --Default Class Settings-- */	
+.articlehead {
+	color : #333333;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 13px;
+	font-weight : bold;
+}
+
+	
+.button {
+	border-style : solid;
+	border-top-width : 1px;
+	border-right-width : 1px;
+	border-bottom-width : 1px;
+	border-left-width : 1px;
+	color : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-style : normal;
+	font-weight : bold;
+	font-size : 10px;
+}
+ 
+.inputbox {
+	border : 1px solid;
+	color : #666666;
+	background : #FFFFFF;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+}
+
+.small {
+	color : #ff6600;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : medium;
+	text-decoration : none;
+}
+
+.whitetext {
+        color : #ffffff;
+        font-family : Verdana, Arial, Helvetica, sans-serif;
+        font-size : 10px;
+        font-weight : medium;
+        text-decoration : none;
+}
+
+.smalldark {
+	color : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : normal;
+}
+
+.heading {
+	color : #ffffff;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+}
+
+.error {
+	color : #c40000;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+}
+
+.boxheading {
+	color : #ffffff;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16px;
+	font-weight : bold;
+}

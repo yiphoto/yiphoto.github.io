@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Maggie Violin Studio</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<link href="../style/style.css" rel="stylesheet" type="text/css" />
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="header"> 
+    <ul id="nav"> 
+      <li><a href="../index.html">Home</a></li> 
+      <li><a href="../testimonials.html">Testimonials</a></li> 
+      <li><a href="../lessons.html">Violin Lessons</a></li> 
+      <li><a href="../about.html">About Me</a></li> 
+    </ul> 
+</div> 
+<div id="bg"> 
+    <div id="title"><!-- TemplateBeginEditable name="title" -->title<!-- TemplateEndEditable --></div> 
+    <div id="content"><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable --></div> 
+</div> 
+<div id="footer">Web Design and Hosting by <a href="http://www.shansoft.com">ShanSoft</a></div> 
+</body>
+</html>

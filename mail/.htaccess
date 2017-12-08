@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mail.yiphoto.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.mail.yiphoto.com$
+RewriteRule ^(.*)$ "http\:\/\/mail\.google\.com\/a\/yiphoto\.com" [R=301,L]
+

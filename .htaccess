@@ -1,0 +1,24 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.yiphoto.com
+AuthUserFile /home/yiphoto/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/yiphoto/public_html/_vti_pvt/service.grp
+
+
+Redirect permanent /models http://www.yiphoto.com/index.php?option=displaypage&Itemid=56&op=page&SubMenu=
+
+
+Redirect permanent /portraits http://www.yiphoto.com/index.php?option=displaypage&Itemid=52&op=page&SubMenu=
+
+

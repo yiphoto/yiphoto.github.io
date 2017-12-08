@@ -1,0 +1,12 @@
+<?xml version="1.0"?> 
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+  <service>
+    <engineName>Movable Type 2.64</engineName> 
+    <engineLink>http://www.movabletype.org/</engineLink>
+    <homePageLink>http://WWW.yiphoto.com/demo/</homePageLink>
+    <apis>
+      <api name="MetaWeblog" preferred="true" apiLink="http://WWW.yiphoto.com/mt-xmlrpc.cgi" blogID="8" />
+      <api name="Blogger" preferred="false" apiLink="http://WWW.yiphoto.com/mt-xmlrpc.cgi" blogID="8" />
+    </apis>
+  </service>
+</rsd>

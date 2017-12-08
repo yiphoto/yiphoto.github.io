@@ -1,0 +1,87 @@
+/** overall hyperlink formating  **/
+a:link, a:visited { color: #7154AB; font-weight: bold; text-decoration: none; }
+a:hover { color: #FF9900; font-weight: bold; text-decoration: none; }
+
+/** main text formating for pages **/
+body,td,tr,p, div { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+h4 { color: #313131; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; }
+h5 { color: #313131; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; }
+h6 { color: #313131; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+
+/** horizontal line  **/
+hr { color: #CCC2E1; height: 1px; width: 100%; }
+
+/** list bullet format **/
+li { list-style: inside url(../images/M_images/arrow.gif); list-style-image: url(../images/M_images/arrow.gif); }
+
+/** article heading text **/
+.articlehead { color: #7154AB; font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -2px; }
+
+/** form button **/
+.button { background: #A187D3; border-bottom: 1px solid; border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; }
+
+/** category text format and links **/
+.category{ color: #7154AB; color: #7154AB; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; letter-spacing: 0px; text-decoration: none; }
+
+/** component heading text such as 'past articles' or 'user login' etc **/
+.componentheading { color: #FF9900; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; }
+
+/** small text for footer, copyright info **/
+.crumb { color: #EFF3FF; font-family: Arial, Helvetica, sans-serif; font-size: 9px; }
+
+/** date text format **/
+.date { color: #9370DB; text-decoration: none; }
+
+/** input field format i.e username and password boxes **/
+.inputbox { background: #EFF3FF; border-bottom: 1px solid; border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-color: #61A400; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; text-color: #666666; }
+
+/** main menu text format as well as hyperlink format **/
+.mainmenu{ color: #7154AB; color: #7154AB; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; text-decoration: none; }
+a.mainmenu:link, a.mainmenu:visited, a.category:link, a.category:visited { color: #7154AB; font-weight: bold; }
+a.mainmenu:hover, a.category:hover { color: #FF8C00; }
+
+/** newsfeeds text format as well as hyperlink format **/
+.fase4_rdf{ color: #7154AB; color: #7154AB; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; text-decoration: none; }
+a.fase4_rdf:link, a.mainmenu:visited, a.category:link, a.category:visited { color: #7154AB; font-weight: bold; }
+a.fase4_rdf:hover, a.category:hover { color: #FF8C00; }
+
+/** same as main menu but for the top navigation bar text if used **/
+.menubar{ color: #FF8C00; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; letter-spacing: 0px; text-decoration: none; }
+a.menubar:link, a.menubar:visited { color: #FF8C00; font-weight: bold; }
+a.menubar:hover { color: #7154AB; }
+
+/** text in the category selection page **/
+.newsarticle { color: #333333; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; /* Up from 10px */ text-align: left; }
+
+/** newsflash text **/
+.newsflash { color: #7154AB; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;}
+
+/** newspane (box around full story) format **/
+.newspaneopen{ border: 0px ridge #DCDCDC; }
+
+/** poll module text and bullet list format**/
+.poll { color: #9483DE; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 14px; }
+
+/** first and third and fifth etc... row of section list format **/
+.sectiontableentry1, .newspane, .popupwindow { background-color: #FFFFFF; }
+
+/** second and fourth and sixth etc... row of section list format **/
+.sectiontableentry2{ background-color: #F2FFDF; }
+
+/** the heading bar, row above the section list **/
+.sectiontableheader{ background-color: #9ACD32; color: #FFFFFF; font-weight: bold; }
+
+
+/** 
+The following are not used in the mambo system but 
+available to you for use and change 
+in say articles or news or anything you like
+e.g  <span class=head>Heading of Article</span>
+**/
+
+
+.head { color: #696969; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+.headadbox { color: #FFFFFF; font-size: 11px; font-weight: bold; text-decoration: none; }
+.small { color: #ff6600; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: medium; text-decoration: none; }
+.subhead { color: #6D6D6D; font-size: 10px; font-weight: bold; }
+.white { color: #FFFFFF; text-decoration: none; }

@@ -1,0 +1,213 @@
+BODY
+{
+}
+.C1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 25pt;
+    COLOR: white;
+    FONT-FAMILY: 'Times New Roman', Arial;
+    BACKGROUND-COLOR: white
+}
+.C3
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 0pt;
+    TEXT-TRANSFORM: none;
+    BORDER-LEFT: medium none;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: #cccccc;
+    FONT-VARIANT: normal
+}
+.C4
+{
+    BACKGROUND-COLOR: #ff9933
+}
+.C5
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: black 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: black 1px;
+    COLOR: black;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: 'Verdana Ref', Verdana;
+    BACKGROUND-COLOR: #cccccc
+}
+.C6
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.l1a
+{
+    BORDER-RIGHT: #ffffff 1px;
+    BORDER-TOP: #ffffff 1px;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #ffffff 1px;
+    COLOR: #666666;
+    BORDER-BOTTOM: #ffffff 1px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #a0a0a0;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+.l1b
+{
+    BORDER-RIGHT: #ffffff 1px;
+    BORDER-TOP: #ffffff 1px;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #ffffff 1px;
+    COLOR: black;
+    BORDER-BOTTOM: #ffffff 1px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #c0c0c0;
+    TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+A.l2:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+A.l2
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+.H3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 20pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'Verdana Ref', Verdana;
+    FONT-VARIANT: normal
+}
+.H1
+{
+    FONT-SIZE: 25pt;
+    COLOR: black;
+    FONT-FAMILY: 'Times New Roman', Arial
+}
+.H2
+{
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial
+}
+A.l3:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: #3399ff;
+    FONT-FAMILY: Arial, Verdana
+}
+A.l3
+{
+    FONT-SIZE: 10pt;
+    COLOR: blue;
+    FONT-FAMILY: Arial, Verdana
+}
+.normal
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: gray;
+    FONT-FAMILY: 'Verdana Ref', Verdana;
+    FONT-VARIANT: normal
+}
+.H4
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: black;
+    FONT-FAMILY: 'Times New Roman', Arial, Verdana;
+    FONT-VARIANT: normal
+}
+A.l4:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: black;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-DECORATION: none
+}
+A.l4
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    TEXT-TRANSFORM: none;
+    COLOR: #666666;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-DECORATION: none
+}
+.C2
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    HEIGHT: 0px;
+    BACKGROUND-COLOR: #666666
+}
+.l5a
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: black 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: 'Verdana Ref', Verdana, Arial;
+    HEIGHT: 0px;
+    BACKGROUND-COLOR: #4d4d4d;
+    TEXT-ALIGN: center
+}
+.l5b
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: black 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: 'Verdana Ref', Verdana, Arial;
+    HEIGHT: 0px;
+    BACKGROUND-COLOR: #ff9900;
+    TEXT-ALIGN: center
+}
+.H5
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: white;
+    FONT-VARIANT: normal
+}
+
+a:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+a
+{
+    FONT-SIZE: 10pt;
+    COLOR: #909090;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+
+td
+{
+    FONT-SIZE: 10pt;
+    COLOR: #707070;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+

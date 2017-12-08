@@ -1,0 +1,19 @@
+[05-Aug-2007 12:13:54] PHP Warning:  main(portrat_thumbnail_1.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /home/yiphoto/public_html/portrait2.php on line 16
+[05-Aug-2007 12:13:54] PHP Warning:  main(portrat_thumbnail_1.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /home/yiphoto/public_html/portrait2.php on line 16
+[05-Aug-2007 12:13:54] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'portrat_thumbnail_1.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yiphoto/public_html/portrait2.php on line 16
+[05-Aug-2007 12:35:11] PHP Warning:  main(wedding_thumbnail_2.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /home/yiphoto/public_html/wedding11.php on line 16
+[05-Aug-2007 12:35:11] PHP Warning:  main(wedding_thumbnail_2.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /home/yiphoto/public_html/wedding11.php on line 16
+[05-Aug-2007 12:35:11] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'wedding_thumbnail_2.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yiphoto/public_html/wedding11.php on line 16
+[05-Aug-2007 12:57:17] PHP Warning:  main(stock_thumbnail_1.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /home/yiphoto/public_html/stock1.php on line 16
+[05-Aug-2007 12:57:17] PHP Warning:  main(stock_thumbnail_1.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /home/yiphoto/public_html/stock1.php on line 16
+[05-Aug-2007 12:57:17] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'stock_thumbnail_1.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yiphoto/public_html/stock1.php on line 16
+[05-Aug-2007 13:33:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/yiphoto/public_html/street.php on line 15
+[05-Aug-2007 13:33:43] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/yiphoto/public_html/street.php on line 15
+[05-Aug-2007 13:35:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/yiphoto/public_html/street.php on line 15
+[05-Aug-2007 13:35:31] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/yiphoto/public_html/street.php on line 15
+[05-Aug-2007 13:36:45] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/yiphoto/public_html/street.php on line 18
+[05-Aug-2007 13:36:47] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/yiphoto/public_html/street.php on line 18
+[05-Aug-2007 13:53:49] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/yiphoto/public_html/street.php on line 15
+[05-Aug-2007 13:54:16] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/yiphoto/public_html/street.php on line 15
+[05-Aug-2007 13:54:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/yiphoto/public_html/street.php on line 15
+[05-Aug-2007 14:04:04] PHP Parse error:  syntax error, unexpected '{' in /home/yiphoto/public_html/street.php on line 16

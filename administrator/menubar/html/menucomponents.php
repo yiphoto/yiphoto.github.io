@@ -1,0 +1,87 @@
+<?php 
+/**
+*	Mambo Open Source Version 4.0.12
+*	Dynamic portal server and Content managment engine
+*	20-01-2003
+*
+*	Copyright (C) 2000 - 2003 Miro International Pty. Limited
+*	Distributed under the terms of the GNU General Public License
+*	This software may be used without warranty provided these statements are left
+*	intact and a "Powered By Mambo" appears at the bottom of each HTML page.
+*	This code is Available at http://sourceforge.net/projects/mambo
+*
+*	Site Name: Mambo Open Source Version 4.0.12
+*	File Name: menucomponents.php
+*	Original Developers: Danny Younes - danny@miro.com.au
+*				Nicole Anderson - nicole@miro.com.au
+*	Date: 20-01-2003
+* 	Version #: 4.0.12
+*	Comments:
+**/
+
+class menucomponents {
+		function NEW_MENU_Components(){ ?>
+			<TABLE CELLSPACING="0" CELLPADDING="0" BORDER="0" WIDTH="100%">
+			<TR>
+				<TD WIDTH="47%" VALIGN="top"><?php include ("menubar/mainmenu.php"); ?></TD>
+				<TD VALIGN="top" ROWSPAN="3" WIDTH="32" ALIGN="right"><img name="endcap" src="../images/admin/endcap.gif" width="32" height="63" border="0" VSPACE="0" HSPACE="0"></TD>
+				<TD VALIGN="bottom" BGCOLOR="#999999" WIDTH="51%">
+					<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="99%" BGCOLOR="#999999">
+					<TR>
+						<TD WIDTH="50" ALIGN='center'><A HREF="#" onClick="   window.open('popups/componentwindow.php', 'win1', 'status=no,toolbar=no,scrollbars=auto,titlebar=no,menubar=no,resizable=yes,width=200,height=400,directories=no,location=no');" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('preview','','../images/admin/preview_f2.gif',1);"><IMG SRC="../images/admin/preview.gif" ALT="Preview"  WIDTH="35" HEIGHT="47" BORDER="0" NAME="preview" HSPACE="5" VSPACE="0"></A></TD>
+			    		<TD WIDTH="50" VALIGN='bottom' BGCOLOR="#999999"><A HREF="javascript:submitbutton('savenew', 'pagemodule');" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('save','','../images/admin/save_f2.gif',1);"><IMG SRC="../images/admin/save.gif" ALT="Publish" WIDTH="36" HEIGHT="47" BORDER="0" NAME="save" HSPACE="5" VSPACE="0"></A></TD>
+						<TD WIDTH="50" VALIGN='bottom' BGCOLOR="#999999"><A HREF="javascript:document.location.href='index2.php?option=Components'" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('cancel','','../images/admin/cancel_f2.gif',1);"><IMG SRC="../images/admin/cancel.gif" ALT="Cancel" WIDTH="34" HEIGHT="47" BORDER="0" NAME="cancel" HSPACE="5" VSPACE="0"></A></TD>
+						<TD WIDTH="370">&nbsp;</TD>
+					</TR>
+					</TABLE>
+				</TD>
+			</TR>
+			<TR>
+				<TD WIDTH="370">&nbsp;</TD>
+				<TD VALIGN="bottom" ALIGN="left" BGCOLOR="#999999"><img name="shadow" src="../images/admin/shadow.gif" width="100%" height="10" border="0" VSPACE="0" HSPACE="0"></TD>
+			</TR>
+			</TABLE>
+		<?php 	}
+		
+		function EDIT_MENU_Components($database, $dbprefix, $option, $comcid, $module){
+			$query = "SELECT publish, module FROM ".$dbprefix."components WHERE id='$comcid'";
+			$result = $database->openConnectionWithReturn($query);
+			while ($row = mysql_fetch_object($result)){
+				$publish = $row->publish;
+				$module = $row->module;
+			}
+			mysql_free_result($result);
+			?>
+			
+			<TABLE CELLSPACING="0" CELLPADDING="0" BORDER="0" WIDTH="100%">
+			<TR>
+				<TD WIDTH="47%" VALIGN="top"><?php include ("menubar/mainmenu.php"); ?></TD>
+				<TD VALIGN="top" ROWSPAN="3" WIDTH="32" ALIGN="right"><img name="endcap" src="../images/admin/endcap.gif" width="32" height="63" border="0" VSPACE="0" HSPACE="0"></TD>
+				<TD VALIGN="bottom" BGCOLOR="#999999" WIDTH="51%">
+					<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="99%" BGCOLOR="#999999">
+					<TR>
+					<?php 	if ($publish == "0"){?>
+							<td width="50" BGCOLOR="#999999" VALIGN="bottom" ALIGN="center"><a href="javascript:submitbutton('publish', '');" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('publish','','../images/admin/publish_f2.gif',1);"><img name="publish" src="../images/admin/publish.gif" width="32" ALT="Publish" HEIGHT="47" border="0" HSPACE="5" VSPACE="0"></a></td>
+					<?php    	}
+						else {?>
+							<td width="50" BGCOLOR="#999999" VALIGN="bottom" ALIGN="center"><a href="javascript:submitbutton('unpublish', '');" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('publish','','../images/admin/Unpublish_f2.gif',1);"><img name="Unpublish" src="../images/admin/Unpublish.gif" width="45" ALT="Unpublish" HEIGHT="47" border="0" HSPACE="5" VSPACE="0"></a></td>
+					<?php 		}?>
+					
+					<?php if ($module == ""){?>
+							<TD WIDTH="50" ALIGN='center'><A HREF="#" onClick=" var content = document.adminForm.content.value; content = content.replace('#', '');  var title = document.adminForm.mytitle.value; title = title.replace('#', ''); window.open('popups/componentwindow.php?title=' + title + '&content=' + content, 'win1', 'status=no,toolbar=no,scrollbars=auto,titlebar=no,menubar=no,resizable=yes,width=200,height=400,directories=no,location=no');" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('preview','','../images/admin/preview_f2.gif',1);"><IMG SRC="../images/admin/preview.gif" ALT="Preview" WIDTH="35" HEIGHT="47" BORDER="0" NAME="preview" HSPACE="5" VSPACE="0"></A></TD>
+					<?php 		}?>	
+						<TD WIDTH="50" ALIGN='center'><A HREF="javascript:submitbutton('saveedit', 'pagemodule');" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('save','','../images/admin/save_f2.gif',1);"><IMG SRC="../images/admin/save.gif" ALT="Publish" WIDTH="36" HEIGHT="47" BORDER="0" NAME="save" HSPACE="5" VSPACE="0"></A></TD>
+			    		<TD WIDTH="50" ALIGN='center'><A HREF="menubar/cancel.php?id=<?php echo $comcid; ?>&option=<?php echo $option; ?>" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('cancel','','../images/admin/cancel_f2.gif',1);"><IMG SRC="../images/admin/cancel.gif" ALT="Cancel" WIDTH="34" HEIGHT="47" BORDER="0" NAME="cancel" HSPACE="5" VSPACE="0"></A></TD>
+						<TD WIDTH="470">&nbsp;</TD>
+					</TR>
+					</TABLE>
+				</TD>
+			</TR>
+			<TR>
+				<TD WIDTH="370">&nbsp;</TD>
+				<TD VALIGN="bottom" ALIGN="left" BGCOLOR="#999999"><img name="shadow" src="../images/admin/shadow.gif" width="100%" height="10" border="0" VSPACE="0" HSPACE="0"></TD>
+			</TR>
+			</TABLE>
+		<?php 	}
+}
+?>

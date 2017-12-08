@@ -1,0 +1,14 @@
+                 Current Developer List
+----------------------------------------------------------------
+Main Developer: Chris Muench
+----------------------------------------------------------------
+Other Developers:
+----------------------------------------------------------------
+1. Anand Rajeswaran 
+2. chai
+3. amuthenn
+4. Vincent Grouls
+5. Jason Brashear
+6. J.Buchanan
+7. Korey Pelton (Web Designer)
+8. utcl95

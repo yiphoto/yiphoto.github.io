@@ -1,0 +1,12 @@
+<TMPL_INCLUDE NAME="header-popup.tmpl">
+
+<p>An error occurred:</p>
+
+<h4 class="error-message"><TMPL_VAR NAME=ERROR></h4>
+
+<div align="center">
+<input type="button" onclick="window.close()" value="Close" />
+<input type="button" onclick="history.back()" value="Go Back" />
+</div>
+
+<TMPL_INCLUDE NAME="footer-popup.tmpl">
